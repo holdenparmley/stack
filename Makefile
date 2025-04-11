@@ -1,4 +1,4 @@
-p1: main.o stack.o doublylinkedlist.o
+myStack: main.o stack.o doublylinkedlist.o
         g++  -o myStack  main.o stack.o doublylinkedlist.o
 
 main.o: main.cpp
